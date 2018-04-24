@@ -81,3 +81,9 @@ deploy:
   type: git
   repo: git@github.com:misaka4e21/misaka4e21.github.io.git
   branch: master
+
+# Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
