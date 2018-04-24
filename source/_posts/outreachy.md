@@ -2,7 +2,10 @@
 title: Outreachy.
 s: outreachy
 date: 2018-04-24 10:06:36
-tags: outreachy, tech
+categories: outreachy
+tags:
+  - outreachy
+  - tech
 ---
 I have been accepted by Outreachy to work on the Discourse project. I feel honoured for that, willing to do my best during the internship.
 
