@@ -87,3 +87,10 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+  content: true
+
+category_feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  content: true
