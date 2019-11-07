@@ -11,11 +11,13 @@ When you record a piece of audio on an AMD Ryzen desktop with Realtek ALG892 cod
 To workaround the problem: 
 Record with bitrate higher than 48000 (default 44100).
 
+For PulseAudio users:
+
 Edit `/etc/pulse/daemon.conf`, append:
 ```
 resample-method = src-sinc-best-quality
-default-sample-format = s16le
-default-sample-rate = 88200
+default-sample-format = s32le
+default-sample-rate = 96000
 ```
 
 Edit `/etc/pulse/default.pa`, change
