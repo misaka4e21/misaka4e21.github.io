@@ -16,7 +16,7 @@ For PulseAudio users:
 Edit `/etc/pulse/daemon.conf`, append:
 ```
 resample-method = src-sinc-best-quality
-default-sample-format = s32le
+default-sample-format = s16le
 default-sample-rate = 96000
 ```
 
